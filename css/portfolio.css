@@ -26,6 +26,8 @@ h1, h2, h3, p, ul{
   padding: 0;
 }
 
+
+
 /* шапка */
 
 .container {
@@ -34,24 +36,21 @@ h1, h2, h3, p, ul{
   margin-left: auto;
   padding-right: 15px;
   padding-left: 15px;
-
 }
 
-.header .container {
+.header {
+border-bottom: 1px solid #ECECEC;
+}
+
+.header .container{
   display: flex;
   height: 80px;
   align-items: center;
   justify-content: center;
-border-bottom: 1px solid #ECECEC;
+
 }
 
-.header {
-/* position: absolute; */
-width: 1600px;
-height: 0px;
-left: 0px;
-top: 80px;
-}
+
 
 .nav{
   display: flex;
@@ -122,15 +121,15 @@ top: 80px;
 }
 /* основной контент */
 
-main {
+.main-section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
+
 .button-list {
   display: flex;
   justify-content: center;
-  margin-top: 94px;
   margin-bottom: 50px;
 }
 
@@ -247,7 +246,6 @@ footer {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-   margin-top: 60px;
   color: var(--main-background-color);
 }
 
@@ -260,6 +258,7 @@ footer {
 }
 
 .footer-mailto {
+  margin-top: 9px;
   margin-bottom: 9px;
 }
 
@@ -280,6 +279,5 @@ footer {
   line-height: 1.71;
   letter-spacing: 0.03em;
   font-style: normal;
-  margin-bottom: 9px;
   color: var(--main-background-color);
 }

@@ -163,11 +163,6 @@ img {
 /* почему мы */
 
 .benefits-section {
-  max-width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -208,18 +203,23 @@ img {
 
 /* чем мы занимаемся */
 
+.work-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .work-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom: 94px;
+  margin-bottom: 50px;
 }
 
 .work-list {
   display: flex;
-  padding-bottom: 94px; */
+
 }
 
 .work-item {
@@ -233,8 +233,11 @@ img {
 /* наша команда */
 
 .team-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: var(--team-background-color);
 }
+
 
 .team-title {
   font-weight: 700;
@@ -257,8 +260,6 @@ img {
 .team-item {
   margin-right: 30px;
   background-color: #FFFFFF;
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
 }
 
 .team-item:last-child {
@@ -277,9 +278,6 @@ border-radius: 0px 0px 4px 4px;
   text-align: center;
   letter-spacing: 0.03em;
   padding-bottom: 10px;
- 
-
-
 }
 
 .team-function {
@@ -288,7 +286,6 @@ border-radius: 0px 0px 4px 4px;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--link-color);
- 
 }
 
 
@@ -308,7 +305,6 @@ footer {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  margin-top: 60px;
   color: var(--main-background-color);
 }
 
@@ -321,6 +317,7 @@ footer {
 }
 
 .footer-mailto {
+  margin-top: 9px;
   margin-bottom: 9px;
 }
 
@@ -341,6 +338,5 @@ footer {
   line-height: 1.71;
   letter-spacing: 0.03em;
   font-style: normal;
-  margin-bottom: 9px;
   color: var(--main-background-color);
 }
