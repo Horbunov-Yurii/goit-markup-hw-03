@@ -189,7 +189,7 @@ img {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  margin: 10px;
+  margin-bottom: 10px;
 }
 
 
@@ -204,7 +204,7 @@ img {
 /* чем мы занимаемся */
 
 .work-section {
-  padding-top: 94px;
+  /* padding-top: 94px; */
   padding-bottom: 94px;
 }
 
