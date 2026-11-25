@@ -4,6 +4,10 @@
   gap: 24px;
 }
 
+.features-item{
+  flex-basis: calc((100% - 72px) / 4);
+}
+
 
 .features-caption {
   color: var(--NAVY-BLUE, #2e2f42);
